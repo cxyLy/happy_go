@@ -1,0 +1,28 @@
+<div class="help_wrapper">
+    <p class="help_head">
+        <a href="#/mine"><span class="mine_iconfont">&#xe619;</span></a>
+        <span class="span">帮助与反馈</span>
+        <span class="mine_iconfont span" ng-click="flag = !flag">&#xe618;</span>
+    </p>
+    <ul class="help_headList" ng-hide="flag">
+        <li ng-click="flag=!flag"><a href="javascript:void(0)" class="mine_iconfont addr_tri">&#xe61c;</a></li>
+        <li><a href="#/home">首页</a></li>
+        <li><a href="#/leyuan">购物车</a></li>
+        <li><a href="#/card">搜索</a></li>
+        <li><a href="#/mine">分类</a></li>
+    </ul>
+    <div class="problem_list" ng-repeat="x in data">
+        <p class="problem_title"><i>·</i>{{ x.title }}</p>
+        <ul>
+            <li ng-repeat="y in x.list">
+                <p class="problem_first" ng-click="tag = !tag">{{ y.head }}</p>
+                <div ng-repeat="z in y.detail" ng-hide="tag">
+                    <p>{{ z.t }}</p>
+                    <p>{{ z.d }}</p>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <div class="help_over"></div>
+</div>

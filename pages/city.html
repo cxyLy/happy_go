@@ -1,0 +1,15 @@
+<div class="city_wrapper">
+    <div class="city_head">
+        <div>{{ city_name }}</div>
+        <a href="#/address">{{ bc }}</a>
+        <a href="#/address">取消</a>
+    </div>
+    <ul class="city_list">
+        <li ng-repeat="x in citys">
+            <p ng-click="flag = !flag;getname(x,'')"><span ng-bind="x['省']"></span><span class="mine_iconfont">&#xe61a;</span></p>
+            <ul ng-class="{false:'city_two',true:'city_one'}[flag]">
+                <li ng-repeat="y in x['市'] " ng-click="getname(x,y) "><a href="javascript:void(0)">{{ y["市名"] }}</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,43 @@
+<link rel="stylesheet" type="text/css" href="css/classify.css"/>
+<link rel="stylesheet" type="text/css" href="lib/swiper-3.3.1.min.css"/>
+	<div class="cf_bar">
+		<!--标题栏搜索框-->
+		<div class="cf_searchBar">
+			<span id="cf_arrow" class="iconfont">&#xe619;</span>
+			<div class="cf_ssk">
+				<span  class="iconfont_mir" id="cf_mirror">&#xe613;</span>
+				<input type="text" id="cf_ipt" placeholder="搜索商品、品牌" />
+			</div>
+		</div>
+		<!--分类选项卡-->
+		<div class="cf_tab">
+			<div class="cf_cfBar">
+				<a href="" class="cf_a1"><span class="iconfont_1">&#xe608;</span>&nbsp;<span>分类</span></a>
+				<a href="#/classifyBord" class="cf_a2"><span class="iconfont_king">&#xe60f;</span>&nbsp;<span>品牌</span></a>
+			</div>
+		</div>
+	</div>
+	
+<div id="cf_wrap" >
+<!--***************************分类内容******************************-->
+	<div id="cf_classifyContent" >
+				<div ng-repeat="x in data_2">
+					<a href="#/cf_shop">
+					    <img ng-src={{x.PinYin}} />
+					    <ks-swiper-container  class="cf_conWrap" loop="false" show-nav-buttons="false" slides-per-view="5" space-between="20" pagination-clickable="false">
+					        <ks-swiper-slide ng-repeat = "y in x.GroupInfo">
+					        	<div class="swiper-slide">
+						        	<img ng-src= {{y.imgURL}} />
+									<p>{{y.MainBrandName}}</p>
+						        </div>
+					        </ks-swiper-slide>
+					    </ks-swiper-container>
+				   </a> 
+				</div>
+	</div>
+</div>
+<div id="cf_letter" ng-class="{true:'disappear',false:'appear'}[flag]">
+	<div ng-repeat="x in data">
+		<a href=#go{{x.PinYin}}>{{x.PinYin}}</a>
+	</div>
+</div>

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1474541442_079819.eot');
+  src: url('//at.alicdn.com/t/font_1474541442_079819.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1474541442_079819.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1474541442_079819.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1474541442_079819.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.mine_iconfont {
+  font-family: iconfont;
+}
+.city_head {
+  width: 3.2rem;
+  height: 0.4rem;
+  background: #EBEBE4;
+  line-height: 0.4rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.city_head div {
+  display: inline-block;
+  border: none;
+  width: 1.6rem;
+  height: 0.4rem;
+  text-indent: 0.2rem;
+  font-size: 0.16rem;
+  color: #000000;
+}
+.city_head a {
+  display: inline-block;
+  color: #000000;
+  width: 0.7rem;
+  font-size: 0.16rem;
+  text-align: right;
+}
+.city_list {
+  margin: 0.4rem 0;
+  width: 3.2rem;
+}
+.city_list li {
+  font-size: 0.15rem;
+}
+.city_list li p {
+  height: 0.4rem;
+  border-bottom: 1px solid #E1E1E1;
+  line-height: 0.4rem;
+}
+.city_list li span:first-child {
+  margin-left: 0.1rem;
+}
+.city_list li span:nth-child(2) {
+  float: right;
+  margin-right: 0.1rem;
+}
+.city_list li ul li {
+  height: 0.4rem;
+  border-bottom: 1px solid #E1E1E1;
+  line-height: 0.4rem;
+  text-indent: 0.3rem;
+}
+.city_list li ul li a {
+  display: block;
+  color: #333333;
+}
+.city_list .city_two {
+  display: none;
+}
+.city_list .city_one {
+  display: block;
+}

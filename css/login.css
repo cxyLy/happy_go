@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1474713525_4769788.eot');
+  src: url('//at.alicdn.com/t/font_1474713525_4769788.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1474713525_4769788.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1474713525_4769788.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1474713525_4769788.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.mine_iconfont {
+  font-family: iconfont;
+}
+.login_wrapper {
+  width: 3.2rem;
+  height: 5.5rem;
+  background: url('../img/loginbg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0.1px;
+}
+.login_wrapper .login_head {
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 3.2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  border-bottom: 2px solid #EFEFEF;
+}
+.login_wrapper .login_head a {
+  width: 0.4rem;
+  text-align: left;
+  font-size: 0.16rem;
+  float: left;
+  margin-left: 0.1rem;
+}
+.login_wrapper .login_head .span:nth-of-type(1) {
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 0.16rem;
+  width: 2.2rem;
+}
+.login_wrapper .login_head .span:nth-of-type(2) {
+  display: block;
+  width: 0.4rem;
+  float: left;
+  font-size: 0.16rem;
+  text-align: right;
+}
+.login_wrapper .login_headList {
+  position: absolute;
+  width: 0.7rem;
+  height: 1.24rem;
+  background: #2F2F2F;
+  top: 0.4rem;
+  right: 0.02rem;
+  border-radius: 3px;
+  transition: all linear 0.5s;
+}
+.login_wrapper .login_headList li a {
+  display: block;
+  width: 0.6rem;
+  height: 0.3rem;
+  line-height: 0.25rem;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 0.05rem;
+}
+.login_wrapper .login_headList li:first-child {
+  position: absolute;
+  right: -0.12rem;
+  top: -0.15rem;
+  transition: all linear 0.5s;
+}
+.login_wrapper .login_headList li:first-child a {
+  display: block;
+  width: 0.6rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #2F2F2F;
+}
+.login_wrapper .ng-hide {
+  position: absolute;
+  width: 0.7rem;
+  height: 0;
+  background: #2F2F2F;
+  top: 0.2rem;
+  right: 0rem;
+  border-radius: 3px;
+}
+.login_wrapper .ng-hide li a {
+  display: block;
+  width: 0.6rem;
+  height: 0.3rem;
+  line-height: 0.25rem;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 0.05rem;
+}
+.login_wrapper .ng-hide li:first-child {
+  position: absolute;
+  right: -0.05rem;
+  top: 0rem;
+  display: none;
+}
+.login_wrapper .ng-hide li:first-child a {
+  display: block;
+  width: 0.6rem;
+  font-size: 0.2rem;
+  text-align: center;
+  color: #2F2F2F;
+}
+.login_form {
+  width: 2.6rem;
+  margin: 0.5rem 0 0 0.3rem;
+}
+.login_form li {
+  width: 2.6rem;
+  height: 0.5rem;
+  border-bottom: 1px solid #E1E1E1;
+  line-height: 0.5rem;
+}
+.login_form li span {
+  font-size: 0.2rem;
+}
+.login_form li input {
+  height: 0.5rem;
+  border: none;
+  background: none;
+  font-size: 0.15rem;
+  text-indent: 0.1rem;
+}
+.login_err {
+  width: 2.6rem;
+  height: 0.25rem;
+  margin: 0.1rem 0 0.2rem 0.3rem;
+}
+.login_btn {
+  width: 2.6rem;
+  height: 0.4rem;
+  background: #94193F;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  color: #ffffff;
+  margin: 0 0 0.2rem 0.3rem;
+  border: none;
+}
+.login_btn a {
+  display: block;
+  color: #ffffff;
+}
+.regist_btn {
+  width: 2.6rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  margin: 0 0 0.2rem 0.3rem;
+  border: 1px solid #94193F;
+  background: none;
+}
+.regist_btn a {
+  display: block;
+  color: #94193F;
+}
+.login_other {
+  width: 2.6rem;
+  margin: 0.2rem 0 0 0.3rem;
+}
+.login_other li {
+  float: left;
+  width: 0.8rem;
+  text-align: center;
+  height: 0.4rem;
+}
+.login_other li p:first-child {
+  color: #C1B9BC;
+  font-size: 0.4rem;
+}
+.login_other li p:nth-child(2) {
+  color: #C1B9BC;
+  font-size: 0.14rem;
+}

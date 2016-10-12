@@ -1,0 +1,112 @@
+<link rel="stylesheet" href="lib/swiper-3.3.1.min.css">
+<link rel="stylesheet" href="css/home.css">
+
+<div class="home">
+    <div class="home_main">
+        <div class="home_head">
+            <a class="home_head001" href="http://game.happigo.com/App/Houseoak"><img ng-src="img/home_head001.jpg" alt=""/></a>
+            <div class="home_head_two">
+                <a href=""><img ng-src="img/home_head002.jpg" alt=""></a>
+                <a href=""><img ng-src="img/home_head002.jpg" alt=""></a>
+            </div>
+            <div class="home_icon">
+                <a>
+                    <img ng-src="img/home_headicon.jpg" alt="">
+                    <span>签到</span>
+                </a>
+                <a>
+                    <img ng-src="img/home_headicon.jpg" alt="">
+                    <span>签到</span>
+                </a>
+                <a>
+                    <img ng-src="img/home_headicon.jpg" alt="">
+                    <span>签到</span>
+                </a>
+                <a>
+                    <img ng-src="img/home_headicon.jpg" alt="">
+                    <span>签到</span>
+                </a>
+            </div>
+            <div class="home_head_end">
+                <a href=""><img ng-src="img/home_head003.jpg" alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="buylimit">
+            <div class="buy_title">
+                <h3><img ng-src="img/ico_28.png" alt="">限时活动</h3>
+            </div>
+            <div class="clearfix"></div>
+            <!--           angular-swiper                  -->
+            <div class="myslides">
+			    <ks-swiper-container loop="true" show-nav-buttons="false" slides-per-view="1" space-between="5" pagination-clickable="false">
+			        <ks-swiper-slide>
+                        <p ng-bind="date"></p>
+			            <img ng-src="http://ecimg.happigo.com/data/upload/app/operate/2016/1019/05277936560684355.jpg" alt="">
+			        </ks-swiper-slide>
+			        <ks-swiper-slide>
+                        <p ng-bind="date"></p>
+                        <img ng-src="http://ecimg.happigo.com/data/upload/app/operate/2016/1016/05277923027341474.jpg" alt="">
+			        </ks-swiper-slide>
+			        <ks-swiper-slide>
+                        <p ng-bind="date"></p>
+                        <img ng-src="http://ecimg.happigo.com/data/upload/app/operate/2016/1015/05277922435838841.jpg" alt="">
+			        </ks-swiper-slide>
+			        <ks-swiper-slide>
+                        <p ng-bind="date"></p>
+                        <img ng-src="http://ecimg.happigo.com/data/upload/app/operate/2016/1017/05277923518070845.jpg" alt="">
+			        </ks-swiper-slide>
+			    </ks-swiper-container>
+			</div>
+        </div>
+        <div class="select">
+            <div class="buy_title">
+                <h3><img ng-src="img/ico_33.png" alt="">今日精选</h3>
+            </div>
+            <div class="clearfix"></div>
+
+            <!--           angular-swiper                  -->
+
+            <section class="clearfix" ng-repeat="y in data">
+
+                <div class="select1_banner">
+                    <img ng-src="http://ecimg.happigo.com/data/upload/app/adsession/2016/9/05278518041406206.jpg" alt="">
+                </div>
+				<div class="myslides">
+				    <ks-swiper-container loop="false" show-nav-buttons="false" slides-per-view="3" space-between="5" pagination-clickable="false">
+				        <ks-swiper-slide ng-repeat="x in y">
+				        	<a href="{{x.url}}">
+                                <img ng-src="{{x.pic}}" alt="">
+                                <p ng-bind="x.goods_name"></p>
+                                <p><span>{{x.goods_price1 | currency:'￥'}}</span>&nbsp;&nbsp;<del ng-bind="x.goods_price2"></del></p>
+                            </a>
+				        </ks-swiper-slide>
+
+				    </ks-swiper-container>
+				</div>
+            </section>
+        </div>
+
+        <div class="recommend">
+            <div class="buy_title">
+                <h3><img ng-src="img/ico_34.png" alt="">今日推荐</h3>
+            </div>
+            <div class="clearfix"></div>
+            <div class="recommend_list">
+                <div class="recommend_flex" ng-repeat="y in data">
+                    <div class="repeat_box" ng-repeat="x in y">
+
+                        <img ng-src={{x.pic}} alt="">
+                        <div class="recommend_text">
+                            <h4 ng-bind="x.goods_jingle"></h4>
+                            <p ng-bind="x.goods_name"></p>
+                            <p><span style="color: #971f44;">{{x.goods_price1 | currency:'￥'}}</span>&nbsp;&nbsp;<del>{{x.goods_price2 | currency:'￥'}}</del></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

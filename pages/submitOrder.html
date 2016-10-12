@@ -1,0 +1,110 @@
+<link rel="stylesheet" type="text/css" href="css/submitOrder.css">
+<div class="submitOrder">
+	<div class="submitOrder-title">
+		<span class="iconfont" ng-click="back()">&#xe619;</span><span>确认订单</span>
+	</div>
+	<div class="go-fill-addr">
+		<a href="#/address"><span>请填写收货人信息</span><span class="iconfont">&#xe61a;</span></a>
+	</div>
+	<div class="ensure-info">
+		<div><span>快乐购商城</span></div>
+		<ul>
+			<li>
+				<img ng-src="{{ modelThree.pic||modelFour.pic }}">
+				<div class="ensure-desc">
+					<span>{{ modelThree.goods_name||modelFour.goods_name }}</span><span>规格 : 默认</span>
+				</div>
+				<div>
+					<span>x1</span><span>{{ modelThree.goods_price1||modelFour.goods_price1 | currency:'￥' }}</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="points">
+		<ul>
+			<li>
+				<span>积分</span>
+				<span>可用0(可抵￥0)</span>
+				<span class="iconfont" ng-click="usePoints()">&#xe620;</span>
+			</li>
+			<li ng-click="show_yhq()">
+				<span>优惠券</span>
+				<span class="iconfont">&#xe61a;</span>
+				<span class="youhuiquan-desc">188元新人套券-69元</span>
+				
+			</li>
+		</ul>
+	</div>
+	<div class="ensure-price">
+		<ul>
+			<li>
+				<span>商品总价</span><span>{{ modelThree.goods_price1||modelFour.goods_price1 | currency:'￥' }}</span>
+			</li>
+			<li>
+				<span>优惠总价</span>
+				<span>{{ modelThree.goods_price1||modelFour.goods_price1 | currency:'￥' }}</span>
+			</li>
+			<li>
+				<span>运费</span>
+				<span>包邮</span>
+			</li>
+		</ul>
+	</div>
+	<div class="pay-style">
+		<ul>
+			<li ng-click="payStyle()">
+				<span>支付方式</span>
+				<span class="iconfont">&#xe61a;</span>
+				<span>在线支付</span>
+				
+			</li>
+			<li ng-click="bill()">
+				<span>发票信息</span>
+				<span class="iconfont">&#xe61a;</span>
+				<span>电子发票-个人</span>
+				
+			</li>
+		</ul>
+	</div>
+	<div class="submitOrder-footer">
+		<span>应付款:</span>
+		<span>{{ modelThree.goods_price1||modelFour.goods_price1 | currency:'￥' }}</span>
+		<span ng-click="submit()" >提交订单</span>
+	</div>
+	<div class="wraning">
+		<span></span>
+	</div>
+	<div class="youhuiquan">
+		<div class="youhuiquan-title">
+			<span class="iconfont" ng-click="show_yhq()">&#xe619;</span><span>选择优惠券</span>
+		</div>
+		<div class="youhuiquan-list">
+			<span>请选择可用优惠券</span>
+			<ul class="youhuiquan-list-inner">
+				<li >
+					<span class="iconfont">&#xe623;</span>
+					<span>不使用优惠券</span>
+					<span class="iconfont">&#xe624;</span>
+				</li>
+				<li >
+					<span class="iconfont">&#xe623;</span><span>188元新人套券-69元</span><span class="iconfont">&#xe624;</span>
+				</li >
+				<li >
+					<span class="iconfont">&#xe623;</span><span>188元新人套券-49元</span><span class="iconfont">&#xe624;</span>
+				</li>
+				<li >
+					<span class="iconfont">&#xe623;</span><span>188元新人套券-35元</span><span class="iconfont">&#xe624;</span>
+				</li>
+				<li >
+					<span class="iconfont">&#xe623;</span><span>188元新人套券-20元</span><span class="iconfont">&#xe624;</span>
+				</li>
+				<li >
+					<span class="iconfont">&#xe623;</span><span>188元新人套券-10元</span><span class="iconfont">&#xe624;</span>
+				</li>
+				<li 	>
+					<span class="iconfont">&#xe623;</span><span>188元新人套券-5元</span><span class="iconfont">&#xe624;</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

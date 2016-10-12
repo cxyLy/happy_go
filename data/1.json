@@ -1,0 +1,502 @@
+{
+"state": 1,
+"goodsInfo": {
+"1098": [
+{
+"goods_commonid": "142656",
+"url": "http://www.happigo.com/item-142656.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/476/204976/1_05277037594092579_360.jpg",
+"goods_name": "Mstone韩国原装进口马油皂100g",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 29,
+"goods_price2": 69,
+"zk": "4.2",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142645",
+"url": "http://www.happigo.com/item-142645.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/481/204981/1_05276877600533238_360.jpg",
+"goods_name": "法国进口 薇姿塑颜V系列护肤组",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 399,
+"goods_price2": 699,
+"zk": "5.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142614",
+"url": "http://www.happigo.com/item-142614.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/475/204975/1_05276211573204263_360.jpg",
+"goods_name": "ROSENSE土耳其进口100%玫瑰精露200ml*1+100ml*1",
+"goods_jingle": "告别干燥肌肤",
+"goods_price1": 199,
+"goods_price2": 299,
+"zk": "6.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142583",
+"url": "http://www.happigo.com/item-142583.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/394/204894/1_05275357468739092_360.jpg",
+"goods_name": "台湾DMC欣兰灰常干净 补水保湿控油清洁收缩毛孔洗面奶80g",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 70,
+"goods_price2": 105,
+"zk": "6.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142582",
+"url": "http://www.happigo.com/item-142582.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/393/204893/1_05275355710279575_360.jpg",
+"goods_name": "台湾DMC欣兰嫩到出水保湿补水滋润懒人面霜50g",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 169,
+"goods_price2": 254,
+"zk": "6.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142581",
+"url": "http://www.happigo.com/item-142581.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/392/204892/1_05275354256521419_360.jpg",
+"goods_name": "台湾DMC欣兰 黑里透白深层清洁毛孔去角质冻膜面膜盒装35g*7包*1盒",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 119,
+"goods_price2": 179,
+"zk": "6.6",
+"icon_image": "",
+"storage_type": "0"
+}
+],
+"1099": [
+{
+"goods_commonid": "142457",
+"url": "http://www.happigo.com/item-142457.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/415/204415/1_05271602055518185_360.jpg",
+"goods_name": "新西兰保加奥图马鞭草精油发膜25g",
+"goods_jingle": "新西兰·精油发膜",
+"goods_price1": 25,
+"goods_price2": 55,
+"zk": "4.5",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142456",
+"url": "http://www.happigo.com/item-142456.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/414/204414/1_05271601200967495_360.jpg",
+"goods_name": "新西兰保加奥图鸢尾花精油发膜25g",
+"goods_jingle": "新西兰·精油发膜",
+"goods_price1": 25,
+"goods_price2": 55,
+"zk": "4.5",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142455",
+"url": "http://www.happigo.com/item-142455.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/413/204413/1_05271600204861671_360.jpg",
+"goods_name": "新西兰保加奥图香柠檬精油发膜25g",
+"goods_jingle": "新西兰·柠檬精油发膜",
+"goods_price1": 25,
+"goods_price2": 55,
+"zk": "4.5",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142454",
+"url": "http://www.happigo.com/item-142454.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/412/204412/1_05271598901618223_360.jpg",
+"goods_name": "新西兰保加奥图香柠檬精油润发乳400ml",
+"goods_jingle": "新西兰·植物精油护发",
+"goods_price1": 79,
+"goods_price2": 174,
+"zk": "4.5",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142453",
+"url": "http://www.happigo.com/item-142453.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/411/204411/1_05271597217885841_360.jpg",
+"goods_name": "新西兰保加奥图玫瑰精油洗发露650ml",
+"goods_jingle": "新西兰·深层修复头皮",
+"goods_price1": 138,
+"goods_price2": 304,
+"zk": "4.5",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141901",
+"url": "http://www.happigo.com/item-141901.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/176/202676/1_05258724583685272_360.jpg",
+"goods_name": "美国文笛隐形空气蓬发卷超值组",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 398,
+"goods_price2": 498,
+"zk": "8.0",
+"icon_image": "",
+"storage_type": "0"
+}
+],
+"1100": [
+{
+"goods_commonid": "142655",
+"url": "http://www.happigo.com/item-142655.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/356/204856/1_05277035278849591_360.jpg",
+"goods_name": "DK Aromatherapy 檀香精油套组",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 328,
+"goods_price2": 656,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142653",
+"url": "http://www.happigo.com/item-142653.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/355/204855/1_05277029962209441_360.jpg",
+"goods_name": "DK Aromatherapy茉莉精油套装",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 298,
+"goods_price2": 596,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142432",
+"url": "http://www.happigo.com/item-142432.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/250/204750/1_05271053042244073_360.jpg",
+"goods_name": "韩国贵爱娘—中草药无荧光剂卫生巾红参29cm/ 18片*1包",
+"goods_jingle": "韩国·绝对不含荧光剂",
+"goods_price1": 49,
+"goods_price2": 98,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142431",
+"url": "http://www.happigo.com/item-142431.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/239/204739/1_05271051816296015_360.jpg",
+"goods_name": "韩国贵爱娘—中草药无荧光剂卫生巾红参25cm / 18片*1包",
+"goods_jingle": "韩国·顶级配方",
+"goods_price1": 49,
+"goods_price2": 98,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142430",
+"url": "http://www.happigo.com/item-142430.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/238/204738/1_05271050243473160_360.jpg",
+"goods_name": "韩国贵爱娘—中草药无荧光剂护垫15.5cm/ 38片*1包",
+"goods_jingle": "韩国·透气超吸收",
+"goods_price1": 35,
+"goods_price2": 70,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142429",
+"url": "http://www.happigo.com/item-142429.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/237/204737/1_05271048658836506_360.jpg",
+"goods_name": "韩国贵爱娘— 中草药无荧光剂卫生巾33cm/12片*1包",
+"goods_jingle": "韩国·中药解救那几天",
+"goods_price1": 39.9,
+"goods_price2": 80,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+}
+],
+"1101": [
+{
+"goods_commonid": "142602",
+"url": "http://www.happigo.com/item-142602.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/437/202937/1_05276157715827427_360.jpg",
+"goods_name": "飞利浦高效清洁声波震动牙刷",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 399,
+"goods_price2": 598,
+"zk": "6.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142142",
+"url": "http://www.happigo.com/item-142142.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/148/203648/1_05265637744127513_360.jpg",
+"goods_name": "WaveBetter唯物倍佳 便携式干电池软毛电动牙刷 （赠通用刷头*1）",
+"goods_jingle": "D系列成人电动牙刷",
+"goods_price1": 99,
+"goods_price2": 199,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141705",
+"url": "http://www.happigo.com/item-141705.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/210/203210/1_05249380647184069_360.jpg",
+"goods_name": "韩国2080牙膏120gX3支装",
+"goods_jingle": "韩国·爱上刷牙",
+"goods_price1": 59,
+"goods_price2": 79,
+"zk": "7.5",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141595",
+"url": "http://www.happigo.com/item-141595.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/140/202640/1_05245946215124149_360.jpg",
+"goods_name": "Verapop维尔博冷光亮白口腔护理套组",
+"goods_jingle": "笑出一口小白牙",
+"goods_price1": 398,
+"goods_price2": 598,
+"zk": "6.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141477",
+"url": "http://www.happigo.com/item-141477.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/468/202468/1_05239860573949414_360.jpg",
+"goods_name": "飞利浦HX9362/67粉钻牙刷 充电式声波震动牙刷",
+"goods_jingle": "荷兰·粉钻女人奢宠礼遇",
+"goods_price1": 1699,
+"goods_price2": 1899,
+"zk": "8.9",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141476",
+"url": "http://www.happigo.com/item-141476.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/467/202467/1_05239857737400265_360.jpg",
+"goods_name": "飞利浦 HX9312/02 钻石亮白型充电式声波震动牙刷",
+"goods_jingle": "荷兰·爱上璀璨的自己",
+"goods_price1": 1699,
+"goods_price2": 1899,
+"zk": "8.9",
+"icon_image": "",
+"storage_type": "0"
+}
+],
+"1103": [
+{
+"goods_commonid": "141986",
+"url": "http://www.happigo.com/item-141986.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/423/203923/1_05260445318232423_360.jpg",
+"goods_name": "娥佩兰净透清润洁肤卸妆露(油性-混合性皮肤)100ml",
+"goods_jingle": "日本·洗出你的美丽",
+"goods_price1": 45,
+"goods_price2": 90,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141635",
+"url": "http://www.happigo.com/item-141635.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/329/203329/1_05247707644184132_360.jpg",
+"goods_name": "詹妮弗洛佩茲闪亮之星女士香水特惠组",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 199,
+"goods_price2": 248,
+"zk": "8.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141415",
+"url": "http://www.happigo.com/item-141415.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/330/202830/1_05235622934850473_360.jpg",
+"goods_name": "蔚伊思 LOVE 幸福纪念香水",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 199,
+"goods_price2": 980,
+"zk": "2.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141218",
+"url": "http://www.happigo.com/item-141218.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/316/202316/1_05224311321753856_360.jpg",
+"goods_name": "莎娜毛孔职人保湿遮瑕密粉饼 5g",
+"goods_jingle": "日本·哑光定妆",
+"goods_price1": 138,
+"goods_price2": 199,
+"zk": "6.9",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141193",
+"url": "http://www.happigo.com/item-141193.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/325/202325/1_05223542598486539_360.jpg",
+"goods_name": "莎娜 毛孔职人立体柔亮美容遮瑕乳",
+"goods_jingle": "日本·高机能底妆",
+"goods_price1": 98,
+"goods_price2": 128,
+"zk": "7.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "141192",
+"url": "http://www.happigo.com/item-141192.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/323/202323/1_05223536634258814_360.jpg",
+"goods_name": "莎娜速捷浓纤睫毛膏",
+"goods_jingle": "日本·刷出太阳花睫毛",
+"goods_price1": 98,
+"goods_price2": 128,
+"zk": "7.7",
+"icon_image": "",
+"storage_type": "0"
+}
+],
+"1124": [
+{
+"goods_commonid": "142601",
+"url": "http://www.happigo.com/item-142601.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/368/204868/1_05276157707263168_360.jpg",
+"goods_name": "金稻吸黑头神器祛黑头去黑头毛孔清洁器洁面仪吸粉刺机KD802",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 328,
+"goods_price2": 656,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142599",
+"url": "http://www.happigo.com/item-142599.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/369/204869/1_05276130509087963_360.jpg",
+"goods_name": "金稻蒸脸器热喷家用美容仪纳米离子喷雾蒸脸机洁面仪补水仪KD2332",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 298,
+"goods_price2": 596,
+"zk": "5.0",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142373",
+"url": "http://www.happigo.com/item-142373.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/72/204572/1_05270230470483245_360.jpg",
+"goods_name": "美国 L.A.B² Pro Collection彩妆专用刷眉刷唇刷眼影刷眼线刷",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 69,
+"goods_price2": 79,
+"zk": "8.7",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142372",
+"url": "http://www.happigo.com/item-142372.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/71/204571/1_05270228069080260_360.jpg",
+"goods_name": "美国 L.A.B² Pro Collection多功能刷彩妆工具粉刷腮红刷",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 109,
+"goods_price2": 129,
+"zk": "8.4",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142370",
+"url": "http://www.happigo.com/item-142370.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/465/204465/1_05270226719649973_360.jpg",
+"goods_name": "美国 L.A.B² Pro Collection粉底刷",
+"goods_jingle": "新品鲜上市",
+"goods_price1": 99,
+"goods_price2": 118,
+"zk": "8.4",
+"icon_image": "",
+"storage_type": "0"
+},
+{
+"goods_commonid": "142369",
+"url": "http://www.happigo.com/item-142369.html",
+"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/460/204460/1_05270224405969866_360.jpg",
+"goods_name": "美国 L.A.B² Pro Collection眼部专业彩妆化妆刷5件套",
+"goods_jingle": "轻巧设计超级亲肤",
+"goods_price1": 198,
+"goods_price2": 249,
+"zk": "8.0",
+"icon_image": "",
+"storage_type": "0"
+}
+]
+},
+"brandInfo": [
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=1694",
+"brandName": "丽得姿",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05221528532156651.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=2161",
+"brandName": "同仁堂面膜",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05221529821925981.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=2160",
+"brandName": "美迪惠尔",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05221528841462526.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=371",
+"brandName": "兰芝",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05221798162552746.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=2192",
+"brandName": "LG洗护",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05234722998124771.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=2159",
+"brandName": "DR.WU",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05221526513789232.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=2228",
+"brandName": "JAYJUN",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05258946641196645.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=1986",
+"brandName": "爱敬",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05126750102051857.jpg"
+},
+{
+"brandHref": "http://www.happigo.com/shop/index.php?act=brand_new&op=content&id=1953",
+"brandName": "ULIKE",
+"brandPic": "http://ecimg.happigo.com/data/upload/shop/brand/05221527361780832.jpg"
+}
+],
+"brandBigInfo": {
+"brand_id": "2160",
+"brand_name": "美迪惠尔",
+"top_pic": "http://ecimg.happigo.com/data/upload/app/brand_zt/2016/05253692295524174.jpg",
+"url": "http://www.happigo.com/index.php?act=brand_new&op=content&id=2160"
+}
+}

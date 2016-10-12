@@ -1,0 +1,132 @@
+<link rel="stylesheet" href="css/goodsItem.css">
+<div class="goodsItem" >
+	<div class="back">
+		<span class="iconfont" ng-click="back()">&#xe619;</span>
+		<span class="iconfont">&#xe61b;</span>
+		<span class="iconfont">&#xe618;</span>
+	</div>
+	<div class="goodsItem-des">	
+		<img ng-src="{{ modelOne.pic }}">
+	
+		<ul class="des">
+			<li>
+				<p>{{ modelOne.goods_desc }}</p>
+				<p>{{ modelOne.goods_name }}</p>
+				<p><span>{{ modelOne.goods_price1 | currency:'￥' }}</span><span>{{ modelOne.goods_price2 | currency:'￥' }}</span><span>{{ disNum(modelOne.goods_price1,modelOne.goods_price2) }}折</span></p>
+			</li>
+			<li>
+				<p><span >满就返</span>可获99积分,可抵0.5元</p>
+				<p><span >满包邮</span>在线支付满129免运费</p>
+			</li>
+		</ul>
+		<ul class="detail">
+			<li><span>已选默认</span><span class="iconfont">&#xe61a;</span></li>
+			<li><span>产品参数</span><span class="iconfont">&#xe61a;</span></li>
+		</ul>
+	</div>
+	<div class="message">
+		<div class="message-title"><span>用户评价<b>(16)</b></span><span><b>100%</b>好评</span></div>
+		<ul class="message-list">
+			<li>
+				<span></span>
+				<div class="message-inner">
+					<span>MB_*********85b</span>
+					<span>货真的不错,样式也不错</span>
+					<span></span>
+				</div>
+				<div class="message-time"><time>2016-09-22 09:03:39</time></div>
+			</li>
+			<li>
+				<span></span>
+				<div class="message-inner">
+					<span>MB_*********85b</span>
+					<span>货真的不错,样式也不错</span>
+					<span></span>
+				</div>
+				<div class="message-time"><time>2016-09-22 09:03:39</time></div>
+			</li>
+		</ul>
+		<div class="message-more">
+			<span>查看更多评价>></span>
+		</div>
+	</div>
+	<div class="goodsLike">
+		<div class="goodsLike-title">
+			<span>猜你喜欢</span>
+		</div>
+		<div class="goodsLike-list">
+			<div class="goodsLike-list-wrap">
+				<div class="goodsLike-list-item" ng-repeat="x in dataset">
+					<a href="#/goodsItem">
+		    			<img ng-src="{{ x.pic }}">
+		    			<p class="like-description">{{ x.goods_name }}</p>
+		    			<p><span class="like-price1">{{ x.goods_price1 | currency:'￥'}}</span></span></p>
+		    		</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ensure">
+		<img src="./img/pic_ensure_new1.jpg" />
+	</div>
+	<div class="more">
+		<div class="more-title">
+			<a href="javascript:void(0)" ng-click="flag = flag ? flag : !flag;flag1 = false;flag2 = false" ><span ng-class="{false:'one2',true:'two2'}[flag]">图文详情</span></a>
+			<a href="javascript:void(0)" ng-click="flag1 = flag1 ? flag1 : !flag1;flag = false;flag2 = false "><span ng-class="{false:'one2',true:'two2'}[flag1]">产品参数</span></a>
+			<a href="javascript:void(0)" ng-click="flag2 = flag2 ? flag2 : !flag2;flag = false;flag1 = false" ><span ng-class="{false:'one2',true:'two2'}[flag2]">配送与售后</span></a>
+		</div>
+		<div class="more-wrap">
+			<div class="more-pic" ng-class="{false:'one',true:'two'}[flag]">
+				<img ng-src="{{ x.goods_pic }}" ng-repeat="x in dataset3.goods_more_pic"/>
+			</div>
+			<div class="more-info" ng-class="{false:'one',true:'two'}[flag1]">
+				<ul>
+					<li><span>品牌</span><span>{{ dataset2.goods_name }}</span></li>
+					<li><span>货号</span><span>{{ dataset3.goods_more_number }}</span></li>
+					<li><span>主商品配套</span><span>{{ dataset3.goods_more_part }}</span></li>
+				</ul>
+			</div>
+			<div class="more-rule" ng-class="{false:'one',true:'two'}[flag2]">	
+				<ul>
+					<li><span>在线客服:</span><span>撒扩大卡就是的空间撒谎的机会撒卡就是的空间撒谎的机会撒卡就是</span></li>
+					<li><span>配送服务:</span><span>撒扩大卡就是的空间撒谎的机会撒卡就是的空间撒谎的机会撒卡就是的空间撒谎的机会撒撒扩大卡就是的空间撒谎的机会撒卡就是的空间撒谎的机会撒卡就是</span></li>
+					<li><span>发货时间:</span><span>撒扩大卡就是的空间撒谎的机会撒卡就是的空间撒谎的机会撒卡就是</span></li>
+					<li><span>退货服务:</span><span>撒扩大卡就是的空间撒谎的机会撒卡就是的空间撒谎的机会撒卡就是</span></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+ <div class="goodsNav">
+
+	<a href="{{ linkAddr }}" ng-click="transmit()"><span class="iconfont addCart-icon">&#xe60b;<i class="cartNum" ng-show="cNum ">{{ cNum }}</i></span></a>
+	<span class="iconfont buyNow-icon" ng-click="tag = !tag" ng-class="{true:'gray',false:'red'}[tag]">&#xe61e;</span>
+	<span class="addCart" ng-click="judgeCart() ">加入购物车</span>
+	<span class="buyNow" ng-click="pageShow()" >立即订购</span>
+</div>
+<div class="buyNow-page"  ng-click="pageShow()">
+	<div class="buyNow-page-add" ng-class="{true:'pageShow',false:'pageHide'}[flag3]" ng-click="$event.stopPropagation();">
+		<div class="buyNow-page-desc"> 
+			<div>
+				<img ng-src="{{ modelOne.pic }}">
+				<div>
+					<span style="font-size: .14rem; ">{{ modelOne.goods_name }}</span>
+					<span style="color:#94193F ">{{ modelOne.goods_price1 | currency:'￥' }}</span>
+				</div>
+			</div>	
+			<div>
+				<span>数量：</span>
+				<div class="buyNow-page-sa">
+					<span ng-click="sub()" class="sub">-</span>
+					<span>{{ num }}</span>
+					<span ng-click="add()" class="add">+</span>
+				</div>
+			</div>
+		</div>
+		<div class="buyNow-page-btn">
+			<a href="#/submitOrder" ng-click="transmitFast()"><span>确定</span></a>
+		</div>
+	</div>
+</div>

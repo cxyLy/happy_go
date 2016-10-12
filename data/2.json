@@ -1,0 +1,39 @@
+{
+	"state": 2,
+	"goodsInfo": {
+		
+		"goods_commonid": "142655",
+		"url": "http://www.happigo.com/item-142655.html",
+		"pic": "http://ecimg.happigo.com/data/upload/shop/store/goods/1/356/204856/1_05277035278849591_360.jpg",
+		"goods_name": "DK Aromatherapy 檀香精油套组",
+		"goods_desc": "DK Aromatherapy 檀香精油套组 超值不要错过",
+		"goods_jingle": "新品鲜上市",
+		"goods_price1": 328,
+		"goods_price2": 656,
+		"zk": "5.0",
+		"icon_image": "",
+		"storage_type": "0",
+		"goods_more":{
+			"goods_more_pic":[
+				{
+					"goods_pic":"http://ecimg.happigo.com/data/upload/shop/store/goods/1/356/204856/1_05277035365432681_1280.jpg"
+				},
+				{
+					"goods_pic":"http://ecimg.happigo.com/data/upload/shop/store/goods/1/356/204856/1_05277035405460551_1280.jpg"
+				},
+				{
+					"goods_pic":"http://ecimg.happigo.com/data/upload/shop/store/goods/1/356/204856/1_05277035455253075_1280.jpg"
+				},
+				{
+					"goods_pic":"http://ecimg.happigo.com/data/upload/shop/store/goods/1/355/204855/1_05277034563711674_1280.jpg"
+				},
+				{
+					"goods_pic":"http://ecimg.happigo.com/data/upload/shop/common/class_1097_caption.jpg"
+				}
+			],
+			"goods_more_number":"20486",
+			"goods_more_part":"精油10ml+熏香炉+蜡烛+开运瓶+试用装1ml"
+
+		}
+	}
+}

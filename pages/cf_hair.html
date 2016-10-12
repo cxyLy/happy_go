@@ -1,0 +1,39 @@
+	
+<link rel="stylesheet" type="text/css" href="css/cf_shop.css"/>
+<div class="cf_top" >
+	<a href="#/classify"><span class="iconfont">&#xe619;</span></a>
+	<p>个户美妆</p><span class="iconfont" ng-click="flag = !flag">&#xe62e;</span>
+	<span id="filt" class="iconfont">&#xe62d;</span>
+</div>
+
+<div id="mark" ng-hide="flag">
+	<div id="mark_list" ng-hide="flag">
+		<div class="state"><span class="iconfont">&#xe624;</span><a href="" class="state">个户美妆</a></div>
+		<div id="1902"><a href="">餐厨日用</a></div>
+		<div id="1903"><a href="">食品健康</a></div>
+		<div id="1904"><a href="">服装服饰</a></div>
+		<div id="1905"><a href="">布艺家纺</a></div>
+		<div id="1906"><a href="">家电数码</a></div>
+		<div id="1907"><a href="">母婴呵护</a></div>
+		<div id="1908"><a href="">更多分类</a></div>
+	</div>
+</div>
+
+<div class="cf_nav">
+	<a href="#/cf_shop">全部</span></a>
+	<a href="#/cf_face">面部护理</a>
+	<a href="#/cf_body">身体护理</a>
+	<a href="#/cf_hair"><span id="cf_active">美发护发</a>
+</div>
+
+<div id="list_wrap">
+	<a href="#/cf_detail">
+		<div class="list" ng-repeat="x in data">
+			<img ng-src={{x.ListPic}} id="pic_1" />
+			<p>{{x.Name}}</p>
+			<div class="price_1"><span>6.7折</span><i>￥269</i></div>
+			<p class="price_2">￥179</p>
+		</div>
+	</a>
+</div>
+

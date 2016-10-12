@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="css/search.css">
+    <div class="search">
+        <div class="title_nav">
+            <a class="search_back" href="#/home"><</a>
+            <div class="search_box">
+                <span class="iconfont">&#xe613;</span>
+                <input type="text" placeholder="唯眠纺全场满300减50" ng-model="content">
+                <span class="clear" ng-click="content=''">X</span>
+            </div>
+            <a href="javascript:void(0)">
+                <div class="search_div" ng-click="search(content)">搜索</div>
+            </a>
+        </div>
+        <div class="hot_search">
+            <div class="search_title">热门搜索</div>
+            <div class="hot_box">
+                <a ng-repeat="x in ['iPhone7','康宁','惠人','御泥坊','面膜','BB霜','洗发水','枸杞','牛奶','橄榄油','大闸蟹','内裤','内衣','豆浆机','原汁机','电饭煲','拖把','贵爱娘','米','亚麻籽油']">{{x}}</a>
+            </div>
+        </div>
+        <div class="history">
+            <div class="history_title">搜索记录</div>
+            <div class="history_box">
+
+            </div>
+            <div class="clear_history" ng-click="empty()">清空搜索记录</div>
+        </div>
+
+    </div>

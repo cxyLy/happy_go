@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="lib/swiper-3.3.1.min.css">
+<link rel="stylesheet" href="css/comd.css">
+<div class="comd">
+    <div class="comd_main">
+        <div class="select">
+
+            <section class="clearfix">
+
+                <div class="select1_banner">
+                    <img ng-src="http://1.happygogogo.applinzi.com/comd/comd_01.png" alt="">
+                </div>
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" ng-repeat="x in comddata['1098']">
+
+                            <a href="{{x.url}}">
+                                <img ng-src="{{x.pic}}" alt="">
+                                <p ng-bind="x.goods_name"></p>
+                                <p><span>{{x.goods_price1 | currency:'￥'}}</span>&nbsp;&nbsp;<del ng-bind="x.goods_price2"></del></p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="recommend">
+            <div class="buy_title">
+                <h3><img ng-src="img/ico_34.png" alt="">精选商品</h3>
+            </div>
+            <div class="clearfix"></div>
+            <div class="recommend_list">
+                <div class="recommend_flex" ng-repeat="y in comddata">
+                    <div class="repeat_box" ng-repeat="x in y">
+
+                        <img ng-src={{x.pic}} alt="">
+                        <div class="recommend_text">
+                            <h4 ng-bind="x.goods_jingle"></h4>
+                            <p ng-bind="x.goods_name"></p>
+                            <p><span style="color: #971f44;">{{x.goods_price1 | currency:'￥'}}</span>&nbsp;&nbsp;<del>{{x.goods_price2 | currency:'￥'}}</del></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

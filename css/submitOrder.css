@@ -1,0 +1,67 @@
+.submitOrder{width: 100%;background: #EEEEEE;min-height: 5.68rem;position: relative;overflow: hidden;}
+.submitOrder-title{width: 100%;line-height: .4rem;border-bottom: 2px solid #E8E8E8;background: #FAFAFA;text-align: center;position: relative;}
+.submitOrder-title span:first-child{position: absolute;left: .1rem;font-size: .16rem;}
+.submitOrder-title span:last-child{font-weight: bold;font-size: .14rem;}
+.go-fill-addr{width: 100%;margin: .05rem 0;background: white;}
+.go-fill-addr>a{color: gray;display:inline-block;line-height: .4rem;padding-left:.3rem; border-bottom: 1px solid #E8E8E8;width: 100%;background: url(../img/user_addr.png) no-repeat .1rem center;background-size: 5%;}
+.go-fill-addr>a span:last-child{float: right;font-size: .2rem;}
+.ensure-info{background: white;padding: 0 .05rem;margin-bottom: .05rem;}
+.ensure-info>div{line-height: .35rem;border-bottom: 1px solid #E8E8E8;}
+.ensure-info>ul{width:100%;}
+.ensure-info>ul li{padding: .05rem 0 .1rem 0;overflow: hidden;}
+.ensure-info>ul li img{width: .6rem;float: left;margin-right: .05rem;}
+.ensure-desc{float: left;width: 1.6rem;}
+.ensure-desc span{display: inline-block;width: 100%;}
+.ensure-desc span:first-child{font-weight: bold;line-height: .24rem;}
+.ensure-info>ul li div:last-child{float: right;width: .85rem;padding-top:.2rem; }
+.ensure-info>ul li div:last-child span{display: inline-block;width: 100%;text-align: right;}
+.points{background: white;padding: 0 .05rem;margin-bottom: .05rem;}
+.points ul li{line-height: .35rem;}
+.points ul li:first-child{border-bottom: 1px solid #E8E8E8;overflow: hidden;}
+.points ul li:first-child span:first-child{color: gray;padding-right:.1rem; }
+.points ul li:first-child span:nth-child(2){font-weight: bold;}
+.points ul li:first-child span:last-child{float: right;font-size: .3rem;color: gray;}
+
+.points ul li:last-child{overflow: hidden;}
+.points ul li:last-child span:first-child{float: left;}
+.points ul li:last-child span:nth-child(2),.points ul li:last-child span:last-child{float: right;}
+.points ul li:last-child span:nth-child(2){font-size: .16rem;}
+.points ul li:last-child span:last-child{padding-right: .1rem;font-weight: bold;}
+
+.ensure-price,.pay-style{padding: 0 .05rem;background: white;margin-bottom: .05rem;}
+.ensure-price ul li,.pay-style ul li{border-bottom: 1px solid #E8E8E8;line-height: .4rem;overflow: hidden;}
+.ensure-price ul li span:last-child{float: right;font-weight: bold;}
+
+.pay-style ul li span:nth-child(2),.pay-style ul li span:last-child{
+	float: right;
+}
+.pay-style ul li span:last-child{
+	font-weight: bold;
+}
+.pay-style ul li span:nth-child(2){
+	font-size: .2rem;
+}
+.submitOrder-footer{padding: 0.05rem;background: white;position: fixed;bottom: 0;left:0;width: 100%;}
+.submitOrder-footer span{display: inline-block;line-height: .35rem;}
+.submitOrder-footer span:nth-child(2){
+	color: #94193F;
+}
+.submitOrder-footer span:last-child{
+	width: .8rem;background: #94193F;color:white;text-align: center;float: right;
+}
+.wraning{width: 100%;height: .4rem;position: fixed;bottom: .5rem;text-align: center;}
+.wraning span{display: inline-block;line-height: .4rem;background: rgba(0,0,0,.4);color: white;padding: 0 .2rem;border-radius: .15rem;}
+
+.youhuiquan{width: 100%;background: #EEEEEE;position: absolute;left: 3.2rem;top: 0;height: 5.66rem;z-index: 100;}
+.youhuiquan-title{width: 3.2rem;line-height: .4rem;border-bottom: 2px solid #E8E8E8;background: #FAFAFA;text-align: center;position: relative;margin-bottom: .05rem;}
+.youhuiquan-title span:first-child{position: absolute;left: .1rem;font-size: .16rem;}
+.youhuiquan-title span:last-child{font-weight: bold;font-size: .14rem;}
+.youhuiquan-list{background: white;padding: 0 .05rem;}
+.youhuiquan-list>span{border-bottom: 1px solid #E8E8E8;line-height: .3rem;display: inline-block;width: 100%;}
+.youhuiquan-list>ul>li{border-bottom: 1px solid #E8E8E8;line-height: .4rem;overflow: hidden;padding: 0 .05rem;}
+.youhuiquan-list>ul>li span:first-child{color: #FF6A75;}
+.youhuiquan-list>ul>li span:last-child{color: #941A40;float: right;}
+
+
+
+

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('//at.alicdn.com/t/font_1474541442_079819.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_1474541442_079819.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1474541442_079819.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/font_1474541442_079819.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_1474541442_079819.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.mine_iconfont{
+    font-family: iconfont;
+}
+.mine_red{color:red}
+.mine_iconOrder{font-size: 0.25rem}
+.mine-wrapper{width: 3.2rem;height: 100%;position: absolute;left: 0;top: 0;margin-bottom: 0.5rem}
+.mine_wrapper{width: 100%;height: 100%;background:#EEEEEE }
+.mine_head{position: relative;margin-bottom: 0.16rem}
+.mine_head .mine_headbg{width:3.2rem;height:1.5rem; -webkit-filter: blur(5px);-moz-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);}
+.mine_head figure{position: absolute;width: 1rem;height: 1rem;left:1.1rem;top:0.25rem;}
+.mine_head figure img{width: 80%;height: 80%;border-radius: 50%;margin: 0 10%;}
+.mine_head figure figcaption{color: #ffffff;font-size: 0;width: 100%}
+.mine_head figure figcaption span{display: inline-block;width: 50%;text-align: center;font-size: 0.1rem;}
+.mine_head figure figcaption span a{color:#ffffff}
+.mine_allOrder{width: 3.2rem;box-sizing: border-box;background: #ffffff}
+.mine_allOrder .mine_orderHead{width: 95%;margin: 0 auto;overflow: hidden}
+.mine_allOrder .mine_orderHead li{width: 47.5%;float: left;height: 0.4rem;border-bottom: 1px solid #E1E1E1;line-height: 0.4rem;font-size: 0.15rem}
+.mine_allOrder .mine_orderHead li:nth-child(2){text-align: right;font-size: 0.12rem}
+.mine_allOrder .mine_orderHead li:nth-child(2) a{display: block;color:#969696; }
+.mine_allOrder .mine_orderList{width: 100%;overflow: hidden}
+.mine_allOrder .mine_orderList li{width: 25%;float:left;height: 0.85rem;text-align: center}
+.mine_allOrder .mine_orderList li span{display: block;width: 100%;}
+.mine_wrapper .mine_property{width:3.2rem;background:#ffffff;margin-top: 0.1rem}
+.mine_wrapper .mine_property p{width:3rem;height: 0.4rem;line-height: 0.4rem;border-bottom:1px solid #E1E1E1;margin-left: 0.1rem;font-size: 0.15rem}
+.mine_wrapper .mine_property p .mine_red{font-size: 0.18rem}
+.mine_wrapper .mine_property ul{overflow: hidden;}
+.mine_wrapper .mine_property ul li{margin:0.1rem 0;width: 1.55rem;height: 0.6rem;float:left;border-right:1px solid #E1E1E1;text-align: center;}
+.mine_wrapper .mine_property ul li:nth-child(2){border: none}
+.mine_wrapper .mine_property ul li span{display: block;}
+.mine_wrapper .mine_property ul li span:nth-child(1){line-height: .3rem}
+.mine_wrapper .mine_property ul li span:nth-child(2){color:#969696}
+.mine_wrapper .mine_show {width: 3.2rem;background: #ffffff;margin-top: 0.1rem}
+.mine_wrapper .mine_show p{width: 3;height: 0.4rem;line-height: 0.4rem;border-bottom: 1px solid #E1E1E1;margin-left: 0.1rem}
+.mine_wrapper .mine_show p span:first-child{display: block;float: left;width: 1.45rem;}
+.mine_wrapper .mine_show p span:first-child i{font-style: normal;font-size: 0.18rem}
+.mine_wrapper .mine_show p span:nth-child(2){display: block;float: right;width: 1.3rem;text-align: right;margin-right: .15rem}
+.mine_wrapper .mine_show ul{width: 3rem;margin-left: .1rem;overflow: hidden}
+.mine_wrapper .mine_show ul li{text-align:center;width: 0.98rem;float:left;height: 0.6rem;border-right:1px solid #E1E1E1;margin: .1rem 0;}
+.mine_wrapper .mine_show ul li:last-child{border:none}
+.mine_wrapper .mine_show ul li span{display: block}
+.mine_wrapper .mine_show ul li span:first-child{line-height: 0.3rem}
+.mine_wrapper .mine_show ul li span:nth-child(2){color:#969696}
+.mine_wrapper .mine_serverlist{width: 3.2rem;background: #ffffff;margin-top: 0.1rem;overflow: hidden}
+.mine_wrapper .mine_serverlist li{width:3rem;margin-left: .1rem;height:0.4rem;border-bottom: 1px solid #E1E1E1;line-height: 0.4rem }
+.mine_wrapper .mine_serverlist li:nth-child(2) a{display: block}
+.mine_wrapper .mine_serverlist li span:nth-child(1){color:#212121}
+.mine_wrapper .mine_serverlist li span:nth-child(1) i{font-style: normal;font-size: 0.14rem;}
+.mine_wrapper .mine_serverlist li span:nth-child(2){float:right;}
+.mine_wrapper .mine_help{display:block;width: 3.2rem;height: .4rem;line-height: .4rem;text-indent: .1rem;background: #ffffff;margin: .1rem 0 .5rem 0;color:#212121;}
+
+
+
+
+
+

@@ -1,0 +1,305 @@
+{
+  "ListContents" : [
+    {
+      "GroupCount" : "2",
+      "GroupInfo" : [
+        {
+          "BrandID" : "1",
+          "MainBrandName" : "面部护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1098.jpg"
+        },
+       {
+          "BrandID" : "57",
+          "MainBrandName" : "美发护发",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1099.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "身体护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1100.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "口腔护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1101.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "香水彩妆",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1103.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "美容工具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1118.jpg"
+       	 }  
+        ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1097_bar.jpg"
+    },
+    {
+      "GroupCount" : "16",
+      "GroupInfo" : [
+        {
+          "BrandID" : "58",
+          "MainBrandName" : "餐饮用具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1062.jpg"
+        },
+        {
+          "BrandID" : "59",
+          "MainBrandName" : "厨房用具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1063.jpg"
+        },
+        {
+          "BrandID" : "2",
+          "MainBrandName" : "厨房配件",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1064.jpg"
+        },
+        {
+          "BrandID" : "3",
+          "MainBrandName" : "厨房电器",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1066.jpg"
+        },
+        {
+          "BrandID" : "4",
+          "MainBrandName" : "生活用品",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1126.jpg"
+        },
+        {
+          "BrandID" : "5",
+          "MainBrandName" : "烹饪锅具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1125.jpg"
+        },
+        {
+          "BrandID" : "6",
+          "MainBrandName" : "家具家饰",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1127.jpg"
+        },
+        {
+          "BrandID" : "21",
+          "MainBrandName" : "清洁收纳",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1128.jpg"
+        },
+        {
+          "BrandID" : "37",
+          "MainBrandName" : "家装建材",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1129.jpg"
+        },
+        {
+          "BrandID" : "107",
+          "MainBrandName" : "家具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1130.jpg"
+        },
+        {
+          "BrandID" : "122",
+          "MainBrandName" : "户外休闲",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1131.jpg"
+        },
+        {
+          "BrandID" : "138",
+          "MainBrandName" : "健康保健",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1132.jpg"
+        }
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1057_bar.jpg"
+    },
+    {
+      "GroupCount" : "4",
+      "GroupInfo" : [
+          {
+          "BrandID" : "1",
+          "MainBrandName" : "面部护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1098.jpg"
+        },
+       {
+          "BrandID" : "57",
+          "MainBrandName" : "美发护发",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1099.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "身体护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1100.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "口腔护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1101.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "香水彩妆",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1103.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "美容工具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1118.jpg"
+       	 }  
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1088_bar.jpg"
+    },
+    {
+      "GroupCount" : "10",
+      "GroupInfo" : [
+         {
+          "BrandID" : "1",
+          "MainBrandName" : "面部护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1098.jpg"
+        },
+       {
+          "BrandID" : "57",
+          "MainBrandName" : "美发护发",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1099.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "身体护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1100.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "口腔护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1101.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "香水彩妆",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1103.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "美容工具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1118.jpg"
+       	 }  
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1082_bar.jpg"
+    },
+    {
+      "GroupCount" : "6",
+      "GroupInfo" : [
+          {
+          "BrandID" : "1",
+          "MainBrandName" : "面部护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1098.jpg"
+        },
+       {
+          "BrandID" : "57",
+          "MainBrandName" : "美发护发",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1099.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "身体护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1100.jpg"
+        },
+         {
+          "BrandID" : "57",
+          "MainBrandName" : "口腔护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1101.jpg"
+        }
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1058_bar.jpg"
+    },
+    {
+      "GroupCount" : "4",
+      "GroupInfo" : [
+          {
+          "BrandID" : "1",
+          "MainBrandName" : "面部护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1098.jpg"
+        },
+       {
+          "BrandID" : "57",
+          "MainBrandName" : "美发护发",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1099.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "身体护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1100.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "口腔护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1101.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "香水彩妆",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1103.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "美容工具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1118.jpg"
+       	 }  
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1060_bar.jpg"
+    },
+    {
+      "GroupCount" : "10",
+      "GroupInfo" : [
+         {
+          "BrandID" : "1",
+          "MainBrandName" : "面部护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1098.jpg"
+        },
+       {
+          "BrandID" : "57",
+          "MainBrandName" : "美发护发",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1099.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "身体护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1100.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "口腔护理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1101.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "香水彩妆",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1103.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "美容工具",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1118.jpg"
+       	 }  
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1116_bar.jpg"
+    },
+    {
+      "GroupCount" : "8",
+      "GroupInfo" : [
+    
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "票务代理",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1121.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "充值培训",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1122.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "汽车周边",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1123.jpg"
+        },
+        {
+          "BrandID" : "57",
+          "MainBrandName" : "其他",
+          "imgURL" : "http://ecimg.happigo.com/data/upload/shop/gc/1110.jpg"
+       	 }  
+      ],
+      "PinYin" : "http://ecimg.happigo.com/data/upload/shop/gc/1109_bar.jpg"
+    }
+   
+      ],
+  "ListCount" : "130"
+}

@@ -1,0 +1,43 @@
+	<link rel="stylesheet" type="text/css" href="css/classify.css"/>
+	<div class="cf_bar">
+		<!--标题栏搜索框-->
+		<div class="cf_searchBar">
+			<span id="cf_arrow" class="iconfont">&#xe619;</span>
+			<div class="cf_ssk">
+				<span  class="iconfont_mir" id="cf_mirror">&#xe613;</span>
+				<input type="text" id="cf_ipt" placeholder="搜索商品、品牌" />
+			</div>
+		</div>
+		<!--分类选项卡-->
+		<div class="cf_tab">
+			<div class="cf_cfBar">
+				<a href="#/classify" class="cf_a3"><span class="iconfont_1">&#xe608;</span>&nbsp;<span>分类</span></a>
+				<a href="#/classifyBord" class="cf_a4"><span class="iconfont_king">&#xe60f;</span>&nbsp;<span>品牌</span></a>
+			</div>
+		</div>
+	</div>
+	<!--**********************************品牌分类***************************-->
+	<div id="cf_bordContent">
+		<div class="cf_bord">
+			<a href="#/cf_shop" class="img"><img src="img/05156966151911295.jpg"/></a>
+			<a href="#/cf_shop" class="img"><img src="img/05156972367714419.jpg"/></a>
+			<a href="#/cf_shop" class="img"><img src="img/05156974369536520.jpg"/></a>
+			<a href="#/cf_shop" class="img"><img src="img/05156974811681538.jpg"/></a>
+			<a href="#/cf_shop">更多品牌推荐></a>
+		</div>
+		
+		<div id="cf_sort_box" ng-repeat="x in data">
+			<h4>{{x.PinYin}}</h4>
+			<div class="cf_imgs" ng-repeat="y in x.GroupInfo">
+				<a href="">
+					<div class="cf_imgBox">
+						<img ng-src={{y.imgURL}} />
+						<div class="cf_sss">
+							<img ng-src="img/ico_21.png"/>
+							<p>{{y.MainBrandName}}</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>

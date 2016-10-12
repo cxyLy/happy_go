@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>快乐购</title>
+    <link rel="stylesheet" type="text/css" href="lib/reset.css">
+    <script type="text/javascript" src="lib/require.js" data-main="main"></script>
+    <style>
+        *{margin:0;padding:0;box-sizing: border-box;}
+        @font-face {
+            font-family: 'iconfont';
+            src: url('//at.alicdn.com/t/font_1474707507_6404326.eot'); /* IE9*/
+            src: url('//at.alicdn.com/t/font_1474707507_6404326.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('//at.alicdn.com/t/font_1474707507_6404326.woff') format('woff'), /* chrome、firefox */
+            url('//at.alicdn.com/t/font_1474707507_6404326.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url('//at.alicdn.com/t/font_1474707507_6404326.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+        .iconfont{font-family: 'iconfont'}
+        /*.myview{padding-top:.64rem}*/
+        #header{
+            height:.64rem;
+            width:3.2rem;
+        }
+        .header{
+            position: fixed;
+            top:0;
+            left:0;
+            right:0;
+            z-index: 99;
+            background-color: #fff;
+        }
+        .wrap_head_ul{
+            width:100%;
+            overflow: scroll;
+
+        }
+
+        .ser{display:flex;justify-content: space-between;padding:0 .05rem;line-height: .32rem;width:100%}
+        .header_icon{font-size:.16rem;color:gray}
+        h1{font-size: 0;background: url("./img/logo.png") no-repeat;background-size:cover;width:.9rem;height:.32rem}
+        .header_ul{
+            /*position: absolute;*/
+            /*left: 0;*/
+            /*top:.3rem;*/
+            /*z-index: 9999999;*/
+            width:5.76rem;
+            height:.32rem;
+            line-height: .32rem;;
+            font-size: 0;
+            text-align:center;
+            background-color: #fff;
+            margin-bottom: .03rem;
+        }
+        .header_ul li{
+            width:.64rem;
+            display: inline-block;
+            font-size: .14rem;
+
+        }
+        .header_ul li a{
+            color:#000;
+            font-size:.12rem;
+        }
+        .footer_ul{
+            position: fixed;
+            bottom:0;
+            left:0;
+            right:0;
+            height:.45rem;
+            font-size: 0;
+            text-align:center;
+            background-color: #fff;
+            z-index:9;
+        }
+        .footer_ul li{
+            width:25%;
+            display: inline-block;
+            font-size: .14rem;
+        }
+        .footer_ul li a{
+            font-size:.12rem;
+            color:darkgray;
+        }
+        .footer_icon{
+            display:block;
+            font-size:.22rem;
+            height:.26rem;
+        }
+
+    </style>
+</head>
+<body>
+<header class="header" >
+    <div class="ser" ><a class="iconfont header_icon" href="#/search" >&#xe613;</a><h1>快乐购</h1><a class="iconfont header_icon" href="#">&#xe603;</a></div>
+    <div class="wrap_head_ul">
+        <ul class="header_ul">
+            <li><a href="#/home">推荐</a></li>
+            <li><a href="#/cosmetics">至IN美护</a></li>
+            <li><a href="#/comd">生活用品</a></li>
+            <li><a href="#/kitchen">乐活厨房</a></li>
+            <li><a href="#/times">美味时光</a></li>
+            <li><a href="#/clothes">时尚靓搭</a></li>
+            <li><a href="#/drygoods">生活家纺</a></li>
+            <li><a href="#/digital">数码电器</a></li>
+            <li><a href="#/baby">母婴呵护</a></li>
+        </ul>
+    </div>
+</header>
+<div id="header"></div>
+<!--<div ng-app="myApp" ng-controller="myCtrl">-->
+
+<!--<button ng-click="count = count + 1">点我！</button>-->
+
+<!--<p>{{ count }}</p>-->
+
+<!--</div>-->
+
+<ul class="footer_ul">
+    <li class="list_show"><a href="#/home" ><span class="iconfont footer_icon">&#xe602;</span>首页</a></li>
+    <li class="list_hide"><a href="#/classify"><span class="iconfont footer_icon">&#xe610;</span>分类</a></li>
+    <li class="list_hide"><a href="#/shoppingCart"><span class="iconfont footer_icon">&#xe60b;</span>购物车</a></li>
+    <li class="list_hide"><a href="#/mine"><span class="iconfont footer_icon">&#xe609;</span>我的</a></li>
+</ul>
+<div ng-view class="myview"></div>
+</body>
+<script>
+    //头部 及 尾部 点击颜色变色
+    var licolor=document.querySelectorAll('.footer_ul li a');
+    var licolor1=document.querySelectorAll('.header_ul li a');
+    var oul=document.querySelectorAll('.header_ul');
+    licolor1[0].style.color="darkred";
+    licolor1[0].parentNode.style.borderBottom=".03rem solid darkred";
+    licolor[0].style.color="darkred";
+    licolor[0].parentNode.style.borderBottom=".03rem solid darkred";
+    for(var j=0;j<licolor.length;j++){
+        licolor[j].index=j
+        licolor[j].onclick=function(){
+            for(var m=0;m<licolor.length;m++){
+                licolor[m].style.color='gray'
+            }
+            this.style.color="darkred";
+            for(var m=0;m<licolor1.length;m++){
+                licolor1[m].style.color='gray';
+                licolor1[m].parentNode.style.borderBottom=".03rem solid transparent"
+            }
+            licolor1[0].style.color="darkred";
+            licolor1[0].parentNode.style.borderBottom=".03rem solid darkred";
+        }
+    }
+    for(var j=0;j<licolor1.length;j++){
+        licolor1[j].index=j
+        licolor1[j].onclick=function(){
+            for(var m=0;m<licolor1.length;m++){
+                licolor1[m].style.color='gray';
+                licolor1[m].parentNode.style.borderBottom=".03rem solid transparent"
+            }
+            this.style.color="darkred";
+            this.parentNode.style.borderBottom=".03rem solid darkred";
+//            this.parentNode.parentNode.style.left=- this.index*64 +128 +'px';
+        }
+    }
+
+    var libtn=document.querySelectorAll('.list_hide');
+    //首页按钮
+    document.querySelector('.list_show').onclick=function(){
+        document.querySelector('.header').style.display='block';
+        document.querySelector('#header').style.display='block';
+    }
+    //后三个按钮
+    for(var i= 0;i<libtn.length;i++){
+        libtn[i].index = i
+//        (function(){
+        libtn[i].onclick=function(){
+            document.querySelector('.header').style.display='none';
+            document.querySelector('#header').style.display='none';
+        }
+//        })(i)
+    }
+    document.querySelector('.header_icon').onclick = function(){
+        document.querySelector('.header').style.display='none';
+        document.querySelector('#header').style.display='none';
+    }
+
+
+</script>
+</html>

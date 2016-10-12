@@ -1,0 +1,119 @@
+.goodsItem{width: 100%;background: #EEEEEE;margin-bottom: .45rem;}
+.back{width: 100%;height: .4rem;background: rgba(255,255,255,0.5);position: relative;position: fixed;top: 0;}
+.back span{width: .3rem;display: inline-block;border-radius: 50%;background: rgba(0,0,0,0.3);margin: .05rem;text-align: center;line-height: .3rem;color: white;}
+.back span:nth-child(2){position: absolute;right: .4rem;}
+.back span:nth-child(3){position: absolute;right: 0;}
+.goodsItem-des{width: 100%;}
+.goodsItem-des>img{width:100%;}
+.des{padding:.06rem .06rem 0 .06rem;background: white;margin-bottom: .1rem;}
+.des li:first-child p{margin: 0.04rem 0;}
+.des li:first-child{border-bottom: 1px solid #E4E4E4;}
+.des li:first-child p:nth-child(2){color: #C41F3A;}
+.des li:first-child p:last-child span{margin-right:.05rem; }
+.des li:first-child p:last-child span:first-child{color: #982146;font-size: .16rem;}
+.des li:first-child p:last-child span:nth-child(2){color: gray;text-decoration: line-through;}
+.des li:first-child p:last-child span:nth-child(3){border: 1px solid #C41F3A;color: #C41F3A;padding:0 .02rem;}
+.des li:nth-child(2){padding: .06rem 0 .06rem 0;}
+.des li:nth-child(2) p{line-height: .25rem;}
+.des li:nth-child(2) p span{border: 1px solid #C41F3A;color: #C41F3A;border-radius: 10%;}
+.detail{background: white;padding:0 .06rem ;margin-bottom: .1rem;}
+.detail li{line-height: .35rem;}
+.detail li:first-child{border-bottom: 1px solid #E4E4E4;}
+.detail li span:last-child{float: right;font-size: .16rem;}
+.message{background: white;margin-bottom: .1rem;}
+.message b{font-weight: normal;}
+.message-title{line-height: .4rem;border-bottom: 1px solid #E8E8E8;padding:0 .06rem; }
+.message-title span:first-child{color: gray;}
+.message-title span:last-child{float: right;}
+.message-title span:last-child b{color: #A64160;}
+.message-list{margin:0 .06rem;}
+.message-list li{border-bottom: 1px solid #E8E8E8;overflow: hidden;}
+.message-list li>span{float: left;height: .4rem;width: .4rem;border-radius: 50%;display: block;background: gray;margin-right: .05rem;opacity: .3;}
+.message-inner{float: left;width: 1.4rem;}
+.message-inner span{display:block;line-height: .35rem;width: 1.4rem;}
+.message-time{float: right;}
+.message-time time{line-height: .35rem;}
+.message-more{line-height: .4rem;text-align: center;}
+.message-more span{color: #94193F;}
+
+.goodsLike{background: white;padding:0 .06rem;margin-bottom: .1rem;}
+.goodsLike-title span{display: inline-block;line-height: .3rem;width: 100%;border-bottom:1px solid #E8E8E8; }
+.goodsLike-list{width: 100%;overflow: scroll;}
+.goodsLike-list-wrap{width: 7.2rem; overflow: hidden;}
+.goodsLike-list-item{width:1.1rem ;float: left;background: white;margin-bottom: .06rem;margin-right: .1rem}
+.goodsLike-list-item>a{display: block;font-size: .12rem}
+.goodsLike-list-item img{width: 100%;}
+.like-description{
+	color: black;margin-bottom: .05rem;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.like-price1{color: #9D2C4F;}
+
+.ensure{width: 100%;height: .7rem;margin-bottom: .1rem;}
+.ensure img{width: 100%;height: 100%;}
+
+.more{background: white;}
+.more-title{border-bottom: 1px solid #E8E8E8;}
+.more-title a{ display: inline-block;width: 32%;text-align: center;line-height: .35rem;color: gray;}
+.more-title a span{height: .35rem;display: inline-block;width: 80%;}
+.more-wrap{width: 100%;}
+.more-pic{width: 100%;}
+.more-pic img{width: 100%}
+.one{
+	display: none;
+}
+.two{
+	display: block;
+}
+.one2{border: none;color: gray;}
+.two2{border-bottom:.01rem solid #C82D46; color:#C82D46; }
+
+.more-info ul{padding: 0 .06rem;}
+.more-info ul li{ border-bottom: 1px solid #E8E8E8; padding: .1rem 0;}
+.more-info ul li span{display: inline-block;}
+.more-info ul li span:first-child{width: 35%;}
+.more-info ul li span:last-child{width: 65%;}
+
+.more-rule ul{padding: 0 .06rem;}
+.more-rule ul li{ border-bottom: 1px solid #E8E8E8; padding: .1rem 0;}
+.more-rule ul li span{display: inline-block;}
+.more-rule ul li span:first-child{width: 35%;}
+.more-rule ul li span:last-child{width: 65%;}
+
+.goodsNav{width: 100%;background: white;position: fixed;bottom: 0;padding: 0.05rem 0;border-top: 1px solid #E8E8E8;z-index: 10;}
+.goodsNav>a{color: gray;}
+.addCart{display: inline-block;padding: 0 .25rem;border: 1px solid #94193F;line-height:.3rem;}
+.buyNow{display: inline-block;padding: 0 .25rem;background: #94193F;border: 1px solid #94193F;line-height:.3rem;color: white;}
+.addCart-icon,.buyNow-icon{display: inline-block;font-size: .16rem;text-align: center;line-height:.3rem;font-size: .18rem;}
+.buyNow-icon{padding: 0 .15rem  0 .1rem;}
+.addCart-icon{position: relative;padding: 0 .1rem  0 .15rem;}
+.cartNum{font-style: normal;width: .15rem;line-height: .15rem;text-align: center;border-radius: 50%;background: #94193F;position: absolute;right: 0;top: 0;color: white;font-size: .12rem;}
+/*----喜欢按钮--*/
+.gray{color: gray;}
+.red{color:#94193F; }
+/*---*/
+.buyNow-page{width: 3.2rem;height: 5.68rem;background: rgba(0,0,0,0.5);position: fixed;top: 0;left: 0;z-index: 11;display: none;}
+.buyNow-page-add{width: 100%;height:4rem;background: white;position: absolute; bottom: -4rem;left: 0;}
+.buyNow-page-desc{width: 100%;border-bottom: 1px solid #E8E8E8;height:3.5rem;}
+.buyNow-page-desc>div:first-child{border-bottom: 1px solid #E8E8E8;overflow: hidden;padding: 0.05rem;}
+.buyNow-page-desc>div:first-child img{width: .7rem;float: left;margin-right: .1rem;}
+.buyNow-page-desc>div:first-child div{float: left;width: 2.3rem;}
+.buyNow-page-desc>div:first-child div span{display: inline-block;width: 100%;line-height: .3rem;}
+.buyNow-page-desc>div:last-child{line-height: .35rem;padding: 0.05rem;}
+.buyNow-page-btn{width: 100%;padding: 0.08rem;height: .5rem;}
+.buyNow-page-btn span{display: inline-block;line-height: .34rem;text-align: center;background:#94193F;color: white;width: 100%;}
+.pageShow{bottom: 0;transition:0.3s;}
+.pageHide{bottom: -4rem;transition:0.3s;}
+
+
+.buyNow-page-sa{float: right;}
+.buyNow-page-sa span{display: inline-block;border: 1px solid #D5D5D5;padding: 0 .1rem;font-size: .14rem;border-radius: .03rem;line-height: .25rem;}
+.buyNow-page-sa span:nth-child(3){padding: 0 .08rem;}
+.buyNow-page-sa span:nth-child(2){padding: 0;border: none;width: .2rem;text-align: center;}
+
+

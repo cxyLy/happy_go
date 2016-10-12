@@ -1,0 +1,45 @@
+{
+  "brandBigInfo":{
+    "goods_commonid": "142656",
+    "url": "http://www.happigo.com/item-142656.html",
+    "pic": "../img/baby",
+    "goods_name": "Mstone韩国原装进口马油皂100g",
+    "goods_jingle": "新品鲜上市",
+    "goods_price1": 29,
+    "goods_price2": 69,
+    "zk": "4.2",
+    "icon_image": "",
+    "storage_type": "0"
+  },
+  "goodsInfo": {
+    "loopImg":[
+      {
+        "goods_commonid": "142656",
+        "url": "http://www.happigo.com/item-142656.html",
+        "pic": "../img/baby",
+        "goods_name": "Mstone韩国原装进口马油皂100g",
+        "goods_jingle": "新品鲜上市",
+        "goods_price1": 29,
+        "goods_price2": 69,
+        "zk": "4.2",
+        "icon_image": "",
+        "storage_type": "0"
+      }
+    ],
+    "bottomImg":[
+      {
+        "goods_commonid": "142656",
+        "url": "http://www.happigo.com/item-142656.html",
+        "pic": "../img/baby",
+        "goods_name": "Mstone韩国原装进口马油皂100g",
+        "goods_jingle": "新品鲜上市",
+        "goods_price1": 29,
+        "goods_price2": 69,
+        "zk": "4.2",
+        "icon_image": "",
+        "storage_type": "0"
+      }
+    ]
+  }
+}
+

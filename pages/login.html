@@ -1,0 +1,41 @@
+<div class="login_wrapper">
+    <p class="login_head">
+        <a href="#/mine"><span class="mine_iconfont">&#xe619;</span></a>
+        <span class="span">登录</span>
+        <span class="mine_iconfont span" ng-click="flag = !flag">&#xe618;</span>
+    </p>
+    <ul class="login_headList" ng-hide="flag">
+        <li><a href="javascript:void(0)" class="mine_iconfont addr_tri" ng-click="flag = !flag">&#xe61c;</a></li>
+        <li><a href="#/home">首页</a></li>
+        <li><a href="#/leyuan">购物车</a></li>
+        <li><a href="#/card">搜索</a></li>
+        <li><a href="#/mine">分类</a></li>
+    </ul>
+    <ul class="login_form">
+        <li>
+            <span class="mine_iconfont">&#xe626;</span>
+            <input type="text" placeholder="请输入手机号/邮箱/用户名" ng-blur="username()" ng-model="user">
+        </li>
+        <li>
+            <span class="mine_iconfont">&#xe628;</span>
+            <input type="password" placeholder="请输入密码" ng-keyup="username();juge(user,psw)" ng-model="psw">
+        </li>
+    </ul>
+    <p class="login_err">{{ err + err1 }}</p>
+    <button class="login_btn" ><a href='javascript:void(0)' id="login">登录</a></button>
+    <button class="regist_btn"><a href="#/regist">注册</a></button>
+    <ul class="login_other">
+        <li>
+            <p class="mine_iconfont">&#xe62a;</p>
+            <p>QQ登录</p>
+        </li>
+        <li>
+            <p class="mine_iconfont">&#xe627;</p>
+            <p>微博登录</p>
+        </li>
+        <li>
+            <p class="mine_iconfont">&#xe62b;</p>
+            <p>支付宝登录</p>
+        </li>
+    </ul>
+</div>

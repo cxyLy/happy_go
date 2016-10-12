@@ -1,0 +1,26 @@
+<link rel="stylesheet" type="text/css" href="css/shoppingCart.css">
+<div class="cart">
+	<div class="cart-list">
+		<h3>{{ title }}</h3>
+		<div class="cart-inner">
+			<div class="cart-inner-bg"></div>
+			<p>购物车肚子空空的,心情不太好</p>
+		</div>
+	</div>
+    
+    <div class="other">
+    	<div class="other-title">
+    		<span>猜你喜欢</span>
+    	</div>
+    	<div class="other-list">
+    		<div ng-repeat="x in datas" class="other-one" >
+	    		<a href="#/goodsItem" ng-click="transmit(x)">
+	    			<img ng-src="{{ x.pic }}">
+	    			<p class="other-description">{{ x.goods_name }}</p>
+	    			<p><span class="other-price1">{{ x.goods_price1 | currency:'￥'}}</span><span class="other-price2">{{ x.goods_price2 |currency:'￥' }}</span></p>
+	    		</a>
+    		</div>
+    	</div>
+    </div>
+   
+</div>

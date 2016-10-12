@@ -1,0 +1,88 @@
+<div class="order_wrapper">
+    <p class="order_head">
+        <a href="#/mine"><span class="mine_iconfont">&#xe619;</span></a>
+        <span class="span">地址管理</span>
+        <span class="mine_iconfont span" ng-click="flag = !flag">&#xe618;</span>
+    </p>
+    <ul class="order_headList" ng-hide="flag">
+        <li ng-click="flag = !flag"><a href="javascript:void(0)" class="mine_iconfont addr_tri">&#xe61c;</a></li>
+        <li><a href="#/home">首页</a></li>
+        <li><a href="#/leyuan">购物车</a></li>
+        <li><a href="#/card">搜索</a></li>
+        <li><a href="#/mine">分类</a></li>
+    </ul>
+    <ul class="order_nav">
+        <li ng-class="{true:'li_one',false:'li_two'}[tag1]" ng-click="changeClass('tag1')">全部</li>
+        <li ng-class="{true:'li_one',false:'li_two'}[tag2]" ng-click="changeClass('tag2')">待付款</li>
+        <li ng-class="{true:'li_one',false:'li_two'}[tag3]" ng-click="changeClass('tag3')">待收货</li>
+        <li ng-class="{true:'li_one',false:'li_two'}[tag4]" ng-click="changeClass('tag4')">待评价</li>
+        <li ng-class="{true:'li_one',false:'li_two'}[tag5]" ng-click="changeClass('tag5')">退货/款</li>
+    </ul>
+    <div class="order_divList">
+        <div class="order_divFirse" ng-class="{true:'div_one',false:'div_two'}[tag1]" ng-click="changeClass('tag1')">
+            <div class="order_input">
+                <input type="text" placeholder="Search" ng-model="search">
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>产品编号</th>
+                    <th>产品名字</th>
+                    <th>产品单价</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="item in data | filter:search">
+                    <td>{{ $index + 1 }}</td>
+                    <td>{{ item.goods_commonid }}</td>
+                    <td>
+                        <img ng-src="{{ item.pic }}" alt=""><span>{{ item.goods_name }}</span>
+                    </td>
+                    <td>{{ item.goods_price1 | currency:'¥'}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="order_receive" ng-class="{true:'div_one',false:'div_two'}[tag2]" ng-click="changeClass('tag2')">
+            <div class="order_noShop">
+                <img src="img/001.gif" alt="">
+            </div>
+            <div class="order_noShopDis">
+                <p>小二提示:</p>
+                <p>暂无要付款项,先去逛逛吧</p>
+            </div>
+            <a href="#/home">随便逛逛</a>
+        </div>
+        <div class="order_receive" ng-class="{true:'div_one',false:'div_two'}[tag3]" ng-click="changeClass('tag3')">
+            <div class="order_noShop">
+                <img src="img/001.gif" alt="">
+            </div>
+            <div class="order_noShopDis">
+                <p>小二提示:</p>
+                <p>暂无订单,先去逛逛吧</p>
+            </div>
+            <a href="#/home">随便逛逛</a>
+        </div>
+        <div class="order_receive" ng-class="{true:'div_one',false:'div_two'}[tag4]" ng-click="changeClass('tag4')">
+            <div class="order_noShop">
+                <img src="img/order_img.jpg" alt="">
+            </div>
+            <div class="order_noShopDis">
+                <p>小二提示:</p>
+                <p>暂无订单,先去逛逛吧</p>
+            </div>
+            <a href="#/home">随便逛逛</a>
+        </div>
+        <div class="order_receive" ng-class="{true:'div_one',false:'div_two'}[tag5]" ng-click="changeClass('tag5')">
+            <div class="order_noShop">
+                <img src="img/001.gif" alt="">
+            </div>
+            <div class="order_noShopDis">
+                <p>小二提示:</p>
+                <p>暂无订单,先去逛逛吧</p>
+            </div>
+            <a href="#/home">随便逛逛</a>
+        </div>
+    </div>
+</div>
